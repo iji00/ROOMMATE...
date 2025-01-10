@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이름"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etStudentId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="학번"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남성"/>
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여성"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="자기소개"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:gravity="top"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="취침시간"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgBedTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/rbBefore12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12시 이전"/>
+
+        <RadioButton
+            android:id="@+id/rb12to1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12시~1시"/>
+
+        <RadioButton
+            android:id="@+id/rb1to2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1시~2시"/>
+
+        <RadioButton
+            android:id="@+id/rbAfter2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2시 이후"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="프로필 저장"/>
+
+</LinearLayout>

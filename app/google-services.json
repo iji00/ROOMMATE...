@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "171320565654",
+    "project_id": "roommate-28f63",
+    "storage_bucket": "roommate-28f63.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171320565654:android:0c58e951e8e53ca0f047b7",
+        "android_client_info": {
+          "package_name": "com.cookandroid.roommate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC03uvVSHus5CyuZ9V2cY7OFa2BqxiGHds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

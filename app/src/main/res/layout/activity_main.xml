@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="룸메이트 매칭"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="아이디"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="로그인" />
+
+    <Button
+        android:id="@+id/btnJoin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="32dp"
+        android:text="회원가입" />
+
+    <Button
+        android:id="@+id/btnCreateProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:enabled="false" android:text="프로필 입력"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnFindRoom"
+        android:layout_width="match_parent"
+        android:enabled="false"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="룸메 찾기"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnRating"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:text="평가하기"
+        android:textSize="18sp" />
+
+</LinearLayout>
